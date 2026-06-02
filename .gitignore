@@ -1,0 +1,71 @@
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# ==========================
+# Jupyter / Colab
+# ==========================
+
+.ipynb_checkpoints/
+
+# Optional: Ignore notebook outputs cache
+.history/
+
+# ==========================
+# Data / ML
+# ==========================
+
+# Large datasets (optional)
+datasets/raw/
+datasets/temp/
+*.zip
+*.tar.gz
+
+# Trained models
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Generated plots / outputs
+outputs/
+figures/
+
+# ==========================
+# IDE / Editor
+# ==========================
+
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# mdBook
+# ==========================
+
+book/
+
+# Generated site output
+site/
+
+# ==========================
+# Secrets
+# ==========================
+
+.env
+.env.local
