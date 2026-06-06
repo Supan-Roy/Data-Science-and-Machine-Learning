@@ -13,7 +13,7 @@ env/
 .venv/
 
 desktop.ini
-
+Materials/
 # ==========================
 # Jupyter / Colab
 # ==========================
